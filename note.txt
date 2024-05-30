@@ -1,0 +1,5 @@
+app.use(express.json()): 
+ sets up middleware to parse incoming requests with JSON payloads,
+ Parsing JSON: This middleware is necessary if your application expects requests with 
+ JSON payloads. 
+ It parses the incoming request body and exposes it on req.body
